@@ -1,3 +1,5 @@
+import Info from "./icons/Info";
+
 function App() {
   return (
     <main className="dark:bg-stone-900 min-h-screen dark:text-white">
@@ -14,7 +16,10 @@ function App() {
           <hr className=" mx-auto h-px my-8 border-0 dark:bg-stone-700"></hr>
         </section>
         <div>
-          <h2 className="text-3xl font-bold mb-6">About me</h2>
+          <div className="flex items-center mb-4 gap-2">
+            <h2 className="text-3xl font-bold">About me</h2>
+            <Info className="w-7 pt-1"></Info>
+          </div>
           <p className="text-stone-300 text-pretty">
             Actualmente me encuentro cursando el último año de la carrera Arte y
             Diseño Digital en la Universidad del Salvador. Realizo desde
