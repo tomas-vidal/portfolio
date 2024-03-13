@@ -13,6 +13,16 @@ function App() {
           </h3>
           <hr className=" mx-auto h-px my-8 border-0 dark:bg-stone-700"></hr>
         </section>
+        <div>
+          <h2 className="text-3xl font-bold mb-6">About me</h2>
+          <p className="text-stone-300 text-pretty">
+            Actualmente me encuentro cursando el último año de la carrera Arte y
+            Diseño Digital en la Universidad del Salvador. Realizo desde
+            trabajos de diseño pero me especializo en el desarrollo de
+            <span className="font-bold text-yellow-400"> Aplicaciones Web</span>
+            .
+          </p>
+        </div>
       </div>
     </main>
   );
