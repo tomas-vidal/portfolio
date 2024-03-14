@@ -1,6 +1,9 @@
+import EducationItem from "./components/EducationItem";
 import Projects from "./components/Projects";
 import ContactIcon from "./icons/ContactIcon";
 import InfoIcon from "./icons/InfoIcon";
+import { education } from "./data/education";
+import { educationType } from "./types/education";
 
 function App() {
   return (
@@ -37,43 +40,16 @@ function App() {
             <ContactIcon className="text-4xl"></ContactIcon>
           </h2>
           <ol className="relative border-s border-gray-700">
-            <li className="mb-14 ms-4 grid grid-cols-3 gap-10">
-              <div>
-                <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border  border-yellow-400 dark:bg-yellow-400"></div>
-                <h3 className="text-md font-semibold dark:text-yellow-400">
-                  Licenciatura en Arte y Diseño Digital
-                </h3>
-                <h2 className=" font-bold text-xl">Universidad del Salvador</h2>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  2021 - 2024
-                </time>
-              </div>
-              <p className="mb-4 font-normal text-gray-500 dark:text-stone-600 col-span-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                placeat, facere nemo officia repellendus consectetur nisi quo
-                aperiam laborum tenetur?
-              </p>
-            </li>
-            <li className="mb-10 ms-4 grid grid-cols-3 gap-10">
-              <div>
-                <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border  border-yellow-400 dark:bg-yellow-400"></div>
-                <h3 className="text-md font-semibold dark:text-yellow-400">
-                  Curso Edición de Audio
-                </h3>
-                <h2 className=" font-bold text-xl">
-                  Universidad Ténica Nacional
-                </h2>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                  2021
-                </time>
-              </div>
-              <p className="mb-4 font-normal text-gray-500 dark:text-stone-600 col-span-2 text-balance">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo molestiae omnis labore aliquid commodi dignissimos
-                hic, sit dolore ad reprehenderit facere qui necessitatibus ipsam
-                pariatur minus laboriosam porro quia quisquam.
-              </p>
-            </li>
+            {education.map((item: educationType) => {
+              return (
+                <EducationItem
+                  name={item.name}
+                  university={item.university}
+                  date={item.date}
+                  description={item.description}
+                ></EducationItem>
+              );
+            })}
           </ol>
         </section>
       </div>

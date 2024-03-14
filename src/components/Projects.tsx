@@ -1,6 +1,7 @@
 import ProjectIcon from "../icons/ProjectIcon";
 import ProjectItem from "./ProjectItem";
 import { projects } from "../data/projects";
+import { projectType } from "../types/projects";
 
 function Projects() {
   return (
@@ -10,7 +11,7 @@ function Projects() {
         <ProjectIcon className="text-2xl"></ProjectIcon>
       </div>
       <div className="flex flex-col gap-6">
-        {projects.map((project) => {
+        {projects.map((project: projectType) => {
           return (
             <ProjectItem
               title={project.title}
