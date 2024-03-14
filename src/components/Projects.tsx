@@ -6,7 +6,7 @@ import { projectType } from "../types/projects";
 function Projects() {
   return (
     <div>
-      <div className="mt-10 flex items-center mb-6 gap-2">
+      <div className="mt-20 flex items-center mb-6 gap-2">
         <h2 className="text-3xl font-bold">Projects</h2>
         <ProjectIcon className="text-2xl"></ProjectIcon>
       </div>

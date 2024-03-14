@@ -3,7 +3,7 @@ import InfoIcon from "../icons/InfoIcon";
 function AboutMe() {
   return (
     <section>
-      <h2 className="flex items-center mb-4 gap-2 text-3xl font-bold">
+      <h2 className="flex items-center mt-14 mb-4 gap-2 text-3xl font-bold">
         About me
         <InfoIcon className="w-7 pt-1"></InfoIcon>
       </h2>

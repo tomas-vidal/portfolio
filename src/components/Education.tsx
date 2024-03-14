@@ -5,7 +5,7 @@ import EducationItem from "./EducationItem";
 
 function Education() {
   return (
-    <section className="mt-10">
+    <section className="mt-20">
       <h2 className="flex items-center mb-10 gap-2 text-3xl font-bold">
         Estudios
         <EducationIcon className="text-4xl"></EducationIcon>

@@ -20,7 +20,7 @@ function Profile() {
           <CVIcon className="size-5"></CVIcon>Mi CV
         </button>
       </div>
-      <hr className=" mx-auto h-px my-8 border-0 dark:bg-stone-700"></hr>
+      <hr className=" mx-auto h-px mt-16 border-0 dark:bg-white/50"></hr>
     </section>
   );
 }
