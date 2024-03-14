@@ -1,3 +1,5 @@
+import React from "react";
+
 function ContactIcon(props: { className: string }) {
   return (
     <svg
@@ -11,9 +13,10 @@ function ContactIcon(props: { className: string }) {
       width="1em"
       {...props}
     >
-      <path stroke="none" d="M0 0h24v24H0z" />
-      <path d="M22 9L12 5 2 9l10 4 10-4v6" />
-      <path d="M6 10.6V16a6 3 0 0012 0v-5.4" />
+      <path d="M16 18a4 4 0 00-8 0" />
+      <path d="M15 11 A3 3 0 0 1 12 14 A3 3 0 0 1 9 11 A3 3 0 0 1 15 11 z" />
+      <path d="M5 4 H19 A2 2 0 0 1 21 6 V20 A2 2 0 0 1 19 22 H5 A2 2 0 0 1 3 20 V6 A2 2 0 0 1 5 4 z" />
+      <path d="M8 2v2M16 2v2" />
     </svg>
   );
 }

@@ -1,5 +1,4 @@
-import React from "react";
-import ContactIcon from "../icons/ContactIcon";
+import EducationIcon from "../icons/EducationIcon";
 import { educationType } from "../types/education";
 import { education } from "../data/education";
 import EducationItem from "./EducationItem";
@@ -9,7 +8,7 @@ function Education() {
     <section className="mt-10">
       <h2 className="flex items-center mb-10 gap-2 text-3xl font-bold">
         Estudios
-        <ContactIcon className="text-4xl"></ContactIcon>
+        <EducationIcon className="text-4xl"></EducationIcon>
       </h2>
       <ol className="relative border-s border-gray-700">
         {education.map((item: educationType) => {

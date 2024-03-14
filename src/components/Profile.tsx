@@ -1,3 +1,6 @@
+import LinkedinIcon from "../icons/LinkedinIcon";
+import CVIcon from "./CVIcon";
+
 function Profile() {
   return (
     <section className="text-center pt-20">
@@ -9,6 +12,14 @@ function Profile() {
       <h3 className="text-stone-300 font-medium mt-2 text-md">
         Desarrollador Web Full Stack & Diseñador Digital
       </h3>
+      <div className="flex justify-center gap-2">
+        <button className="mt-2 flex gap-1 items-center border py-2 px-3 rounded-sm">
+          <LinkedinIcon className="size-4"></LinkedinIcon>Linkedin
+        </button>
+        <button className="mt-2 flex gap-1 items-center border py-2 px-3 rounded-sm">
+          <CVIcon className="size-5"></CVIcon>Mi CV
+        </button>
+      </div>
       <hr className=" mx-auto h-px my-8 border-0 dark:bg-stone-700"></hr>
     </section>
   );

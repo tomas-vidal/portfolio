@@ -1,4 +1,6 @@
-function EducationItem({ name, university, date, description }) {
+import { educationType } from "../types/education";
+
+function EducationItem({ name, university, date, description }: educationType) {
   return (
     <li className="mb-14 ms-4 grid grid-cols-3 gap-10">
       <div>
