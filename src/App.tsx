@@ -1,5 +1,4 @@
 import Projects from "./components/Projects";
-import InfoIcon from "./icons/InfoIcon";
 import Education from "./components/Education";
 import Profile from "./components/Profile";
 import AboutMe from "./components/AboutMe";
