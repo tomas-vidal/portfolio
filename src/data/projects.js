@@ -36,19 +36,19 @@ export const TAGS = {
 
 export const projects = [
   {
-    title: "Budget App",
+    title: "Context Extension",
     imgUrl:
       "https://i.pinimg.com/originals/3a/31/dc/3a31dc8ba646dc1797829617d739d538.jpg",
-    text: " Simple APP to track expenses and what is people’s live cost at their respective cities.",
+    text: "Extensión de chrome que guarda las páginas que el usuario desee y las abre al mismo tiempo.",
     stack: [TAGS.HTML, TAGS.CSS, TAGS.REACT, TAGS.NODEJS, TAGS.TAILWIND],
     projectUrl: "http://www.google.com.ar",
     githubUrl: "http://www.github.com",
   },
   {
-    title: "Budget App",
+    title: "Keyboard game",
     imgUrl:
       "https://i.pinimg.com/originals/3a/31/dc/3a31dc8ba646dc1797829617d739d538.jpg",
-    text: " Simple APP to track expenses and what is people’s live cost at their respective cities.",
+    text: "Juego clásico de teclado, marca la cantidad de palabras por segundos que el usuario es capaz de escribir y tiene un sistema de scores que solo muestra los primeros tres.",
     stack: [TAGS.HTML],
     projectUrl: "http://www.google.com.ar",
     githubUrl: "http://www.github.com",

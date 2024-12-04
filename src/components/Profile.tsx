@@ -14,7 +14,13 @@ function Profile() {
       </h3>
       <div className="flex justify-center gap-2">
         <button className="mt-2 flex gap-1 items-center border py-2 px-3 rounded-sm">
-          <LinkedinIcon className="size-4"></LinkedinIcon>Linkedin
+          <LinkedinIcon className="size-4"></LinkedinIcon>
+          <a
+            href="https://www.linkedin.com/in/tom%C3%A1s-a-vidal-17696828b/"
+            target={"_blank"}
+          >
+            Linkedin
+          </a>
         </button>
         <button className="mt-2 flex gap-1 items-center border py-2 px-3 rounded-sm">
           <CVIcon className="size-5"></CVIcon>Mi CV

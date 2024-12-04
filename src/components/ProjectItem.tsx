@@ -8,7 +8,7 @@ function ProjectItem({ title, img, text, stack }) {
       <img className="object-cover w-80 h-50 rounded-sm " src={img}></img>
       <div>
         <div className="flex gap-3 items-center cursor-pointer  mb-2 mr-auto">
-          <h5 className="text-4xl font-bold ">{title}</h5>
+          <h5 className="text-2xl font-bold ">{title}</h5>
           <RedirectIcon className="w-6 "></RedirectIcon>
         </div>
         <p>{text}</p>

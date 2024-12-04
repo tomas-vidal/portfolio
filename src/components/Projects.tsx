@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div>
       <div className="mt-20 flex items-center mb-6 gap-2">
-        <h2 className="text-3xl font-bold">Projects</h2>
+        <h2 className="text-2xl font-bold">Projectos</h2>
         <ProjectIcon className="text-2xl"></ProjectIcon>
       </div>
       <div className="flex flex-col gap-6">

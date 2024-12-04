@@ -4,7 +4,7 @@ import ContactIcon from "../icons/ContactIcon";
 function Contact() {
   return (
     <section className="mt-20">
-      <h2 className="flex items-center mb-5 gap-2 text-3xl font-bold">
+      <h2 className="flex items-center mb-5 gap-2 text-2xl font-bold">
         Contact
         <ContactIcon className="text-3xl"></ContactIcon>
       </h2>
