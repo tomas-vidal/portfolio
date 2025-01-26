@@ -1,7 +1,7 @@
 const portfolioWorks = [
   {
     title: "Desarrollo Backend con ASP NET",
-    img: "https://estaticos-cdn.sport.es/clip/7728a07d-ac1e-4bbf-a187-ca0136d5bcdb_alta-libre-aspect-ratio_default_0.jpg",
+    img: "",
     technologies: [
       { name: "ASP.NET", style: "bg-gray-800 text-white" },
       { name: "C#", style: "bg-green-700 text-white" },
@@ -16,7 +16,7 @@ const portfolioWorks = [
   },
   {
     title: "Desarrollo Frontend",
-    img: "https://estaticos-cdn.sport.es/clip/7728a07d-ac1e-4bbf-a187-ca0136d5bcdb_alta-libre-aspect-ratio_default_0.jpg",
+    img: "",
     technologies: [
       { name: "REACT", style: "bg-blue-700 text-white" },
       { name: "BOOTSTRAP", style: "bg-blue-500 text-white" },
@@ -30,7 +30,7 @@ const portfolioWorks = [
   },
   {
     title: "UX/UI",
-    img: "https://estaticos-cdn.sport.es/clip/7728a07d-ac1e-4bbf-a187-ca0136d5bcdb_alta-libre-aspect-ratio_default_0.jpg",
+    img: "",
     technologies: [
       { name: "Diseño grafico", style: "bg-red-600 text-white" },
       { name: "Edicion de video", style: "bg-blue-500 text-white" },

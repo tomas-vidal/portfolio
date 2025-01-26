@@ -27,13 +27,13 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </head>
-      <main className=" w-screen mx-auto font-inter text-stone-900 h-screen overflow-y-scroll snap-mandatory snap-y scroll-smooth dark:bg-stone-900">
-        <header className="flex flex-col min-h-screen items-center justify-center gap-6 snap-center">
+      <main className="max-w-screen mx-auto h-screen font-inter text-stone-900 overflow-y-scroll snap-mandatory snap-y scroll-smooth dark:bg-stone-900">
+        <header className="md:h-screen h-[100px] py-20 px-20 flex flex-col items-center justify-center gap-6 snap-center overflow-hidden">
           <DarkModeButton useDarkMode={useDarkMode} darkMode={darkMode} />
-          <div className="flex flex-col justify-center items-center">
+          <div className="">
             <Header />
           </div>
-          <div className="grid grid-cols-3 gap-5 ">
+          <div className="grid grid-cols-3 gap-5 px-12 mdh:h-3/4">
             {portfolioWorks.map((work, idx) => (
               <CardProject
                 title={work.title}

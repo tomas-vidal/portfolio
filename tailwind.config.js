@@ -9,6 +9,11 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "serif"],
       },
+      screens: {
+        mdh: {
+          raw: '(max-height: 650px)',
+        }
+      }
     },
   },
   plugins: [],
