@@ -13,7 +13,7 @@ export default function Header() {
         className="tracking-widest dark:text-white/50"
         aria-label="Profesión: Front-end Developer & Digital Designer"
       >
-        FRONT END DEVELOPER & DIGITAL DESIGNER
+        BACKEND DEVELOPER & DIGITAL DESIGNER
       </p>
       <p className="text-sm max-w-xl mt-4 dark:text-white/80">
         Actualmente soy un estudiante de la carrera Arte y Diseño Digital en la

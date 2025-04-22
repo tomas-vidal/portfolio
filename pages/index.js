@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import DarkModeButton from "./components/DarkModeButton";
@@ -9,7 +7,6 @@ import portfolioWorks from "./api/data";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import useLocalStorage from "./hooks/useLocalStorage";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(undefined);
@@ -30,7 +27,7 @@ export default function Home() {
         <title>Tomás Vidal Portfolio</title>
         <meta
           name="description"
-          content="Portfolio personal de Tomás Vidal, desarrollador front-end."
+          content="Portfolio personal de Tomás Vidal, desarrollador web."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
