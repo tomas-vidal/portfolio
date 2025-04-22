@@ -4,19 +4,20 @@ import CardExperience from "./CardExperience";
 
 export default function Experience() {
   return (
-    <div className="max-w-3xl mx-auto">
-      <h1 className="text-2xl font-bold text-stone-900 mb-5 dark:text-white">
+    <section className="max-w-3xl mx-auto">
+      <h2 className="text-2xl font-bold text-stone-900 mb-5 dark:text-white">
         Experiencia laboral
-      </h1>
-      {experience.map((item) => (
+      </h2>
+      {experience.map((item, index) => (
         <CardExperience
           job={item.job}
           company={item.company}
           date={item.date}
           description={item.description}
           link={item.link}
+          key={index}
         />
       ))}
-    </div>
+    </section>
   );
 }

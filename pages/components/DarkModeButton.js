@@ -3,7 +3,7 @@ import React from "react";
 export default function DarkModeButton({ useDarkMode, darkMode }) {
   return (
     <button
-      className="fixed right-20 top-4 bg-stone-300 text-lg p-1 rounded-md"
+      className="fixed right-20 lg:right-4 top-4 bg-stone-300 text-lg p-1 rounded-md"
       onClick={useDarkMode}
     >
       {darkMode ? (

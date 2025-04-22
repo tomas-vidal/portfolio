@@ -10,10 +10,18 @@ module.exports = {
         inter: ["Inter", "serif"],
       },
       screens: {
-        mdh: {
-          raw: '(max-height: 650px)',
-        }
-      }
+        xl: { max: "1279px" },
+        // => @media (max-width: 1279px) { ... }
+
+        lg: { max: "1023px" },
+        // => @media (max-width: 1023px) { ... }
+
+        md: { max: "767px" },
+        // => @media (max-width: 767px) { ... }
+
+        sm: { max: "639px" },
+        // => @media (max-width: 639px) { ... }
+      },
     },
   },
   plugins: [],

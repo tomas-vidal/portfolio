@@ -1,7 +1,7 @@
 const portfolioWorks = [
   {
     title: "Desarrollo Backend con ASP NET",
-    img: "",
+    img: "./images/backend.png",
     technologies: [
       { name: "ASP.NET", style: "bg-gray-800 text-white" },
       { name: "C#", style: "bg-green-700 text-white" },
@@ -16,7 +16,7 @@ const portfolioWorks = [
   },
   {
     title: "Desarrollo Frontend",
-    img: "",
+    img: "./images/frontend.png",
     technologies: [
       { name: "REACT", style: "bg-blue-700 text-white" },
       { name: "BOOTSTRAP", style: "bg-blue-500 text-white" },
@@ -30,7 +30,7 @@ const portfolioWorks = [
   },
   {
     title: "UX/UI",
-    img: "",
+    img: "./images/design.jpg",
     technologies: [
       { name: "Diseño grafico", style: "bg-red-600 text-white" },
       { name: "Edicion de video", style: "bg-blue-500 text-white" },
