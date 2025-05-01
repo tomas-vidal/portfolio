@@ -60,7 +60,7 @@ export default function Home() {
                   key={idx}
                   title={work.title}
                   img={work.img}
-                  technologies={work.technologies || []}
+                  technologies={work.technologies}
                   description={work.description}
                   link={work.link}
                 />

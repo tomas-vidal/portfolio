@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function CardProject({
   title,
   img,
-  technologies,
+  technologies = [],
   description,
   idx,
 }) {
@@ -48,8 +48,8 @@ export default function CardProject({
           {title}
         </h1>
         <div className="flex flex-wrap justify-center gap-1 flex-grow-0">
-          {technologies?.map(({ name, style }, idx) => {
-            return (
+          {Array.isArray(technologies) &&
+            technologies.map(({ name, style }, idx) => (
               <button
                 key={idx}
                 type="button"
@@ -58,8 +58,7 @@ export default function CardProject({
               >
                 {name}
               </button>
-            );
-          })}
+            ))}
         </div>
         <p className="my-3 text-sm text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 sm:hidden">
           {description}
