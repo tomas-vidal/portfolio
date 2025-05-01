@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import DarkModeButton from "./components/DarkModeButton";
-import Header from "./components/Header";
-import CardProject from "./components/CardProject";
-import portfolioWorks from "./api/data";
-import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import DarkModeButton from "../components/DarkModeButton";
+import Header from "../components/Header";
+import CardProject from "../components/CardProject";
+import portfolioWorks from "../api/data";
+import Footer from "../components/Footer";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(undefined);
