@@ -11,8 +11,6 @@ export default function Footer() {
   );
 
   const sendEmail = (e) => {
-    e.preventDefault();
-    console.log(form.current);
     emailjs
       .sendForm(
         process.env.NEXT_PUBLIC_SERVICE_ID,
