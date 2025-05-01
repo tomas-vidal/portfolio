@@ -48,7 +48,7 @@ export default function CardProject({
           {title}
         </h1>
         <div className="flex flex-wrap justify-center gap-1 flex-grow-0">
-          {technologies.map(({ name, style }, idx) => {
+          {technologies?.map(({ name, style }, idx) => {
             return (
               <button
                 key={idx}
