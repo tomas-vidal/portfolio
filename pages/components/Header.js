@@ -16,10 +16,10 @@ export default function Header() {
         BACKEND DEVELOPER & DIGITAL DESIGNER
       </p>
       <p className="text-sm max-w-xl mt-4 dark:text-white/80">
-        Actualmente soy un estudiante de la carrera Arte y Diseño Digital en la
-        Universidad del Salvador. Me fascina todo el mundo de la programación,
-        más concretamente el área que se conecta con mi carrera, que es la de
-        <span className="font-bold"> Desarrollo Web</span>.
+        Soy diseñador digital especializado en desarrollo web. Me dedico a crear
+        sitios desde la etapa de bocetado hasta su implementación final.
+        Actualmente soy desarrollador freelance y estuve en proyectos que
+        abarcan desde páginas institucionales hasta plataformas más complejas.
       </p>
     </section>
   );
